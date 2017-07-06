@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+/*重置样式*/
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+   /*隐藏*/
+.hide{display: none;}
+  /*无限循环*/
+.infinite{animation-iteration-count:infinite;}
+  /*延迟时间*/
+.delay-time{animation-delay:1s;}
+  /*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+ /*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);} 
+
+.delay-time1{animation-delay:1.5s;}
+.delay-time2{animation-delay:2s;}
+.delay-time3{animation-delay:2.5s;}
+.delay-time4{animation-delay:3s;}
+.delay-time5{animation-delay:0.5s;}
+
+
+/*公共部分样式*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width:640px;
+	min-width: 320px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+.page{	
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	border:1px solid red;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:99;
+	transition:all 1s ease;
+}
+.page_0{
+	background:url(../images/aaa.jpg)0 0 no-repeat;
+	background-size:100% 100% ;
+}
+.page_1{
+	background: url(../images/bbb.jpg) 0 0 no-repeat;
+	background-size:100% 100% ;
+}
+.page_2{
+	background: url(../images/eee.jpg) 0 0 no-repeat;
+	background-size:100% 100% ;
+}
+.page_3{
+	background: url(../images/ddd.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.page_4{
+	background: url(../images/) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+}
+
+/*音乐按钮样式*/
+.music_btn{
+	width: 44px;
+	height: 44px;
+	background:url(../images/music.png) center center no-repeat;
+	position: fixed;
+	top:15px;
+	right:15px;
+	z-index: 100;
+}
+/*提示箭头样式*/
+.arrow{
+	width: 0.86rem;
+	height:0.66rem;
+	background-color:transparent;
+	position: fixed;
+	bottom:0.3rem;
+	left:44%;
+	z-index:100;
+}
+.page_0{
+	text-align: center;
+}
+/*第一页的样式*/
+.page_1 img{
+	display: block;
+	width: 56%;
+	height:32%;
+	border-radius:50%;
+	margin:0.2rem auto;
+}
+.page_1 p{
+	font-size: 0.5rem;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 0.5rem;
+	color: white;
+	
+}
+/*.page_0{
+	position: relative;
+}*/
+.s-0{
+	color: lime;
+	margin-top: -0.3rem;
+	
+}
+.s-1{
+	color: orange;
+	
+}
+.s-2{
+	color:red;
+	
+}
+
+.page_0 h1{
+	font-size: 1rem;
+	color: white;
+	margin-top: 2rem;
+}
+.page_1 h2{
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	width:5rem;
+	margin: 0 auto;
+	text-align: center;
+	color:#FBFDFC;
+}
+.page_2 h1{
+	font-size: 1rem;
+	width: 4rem;
+	margin:0 auto;
+	text-align: center;
+	color: white;
+}
+.page_2{
+	position: relative;
+}
+.page_2 p{
+	font-size: 0.26rem;
+	position: absolute;
+	top: 6rem;
+	left: 0.3rem;
+	color: cornflowerblue;
+}
+
+/*.page_3 img{
+	width: 100%;
+	height: 3rem;
+}*/
+
+.page_3 p{
+	font-size: 0.12rem;
+	margin-top: 0.1rem;
+}
+.page_3{
+	overflow: hidden;
+}
+.left{
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 1rem;
+
+}
+.right{
+	float: left;
+	margin-left: 2rem;
+	margin-top: 1rem;
+}
+
+.page_2 .div-1{
+	font-size: 1rem;
+	color: yellow;
+	position: relative;
+	left: 4.2rem;
+}
+.page_2 .div-2{
+	font-size: 1rem;
+	color: yellow;
+	position: relative;
+	left: 3.2rem;
+}
+.page_2 .div-3{
+	font-size: 1rem;
+	color: yellow;
+	position: relative;
+	left: 4.5rem;
+	top: -0.8rem;
+}
+.page_2 .div-4{
+	font-size: 1rem;
+	color: yellow;
+	position: relative;
+	left: 2.2rem;
+	top: -4rem;
+}
+.page_2 .div-5{
+	font-size: 1rem;
+	color: yellow;
+	position: relative;
+	left: 5.2rem;
+	top: -4.2rem;
+}
+.page_2 .div-6{
+	font-size: 2rem;
+	color: yellow;
+	position: relative;
+	left: 0.2rem;
+	top: -7.5rem;
+}
+.span span{
+	font-size: 1rem;
+}
+.span{
+	margin-left: 0.7rem;
+}
+.left a,.right a{
+	text-decoration: none;
+	/*color: */
+	font-size: 0.3rem;
+	font-weight: 900;
+	line-height: 0.6rem;
+}
+
+.page_4 h1{
+	font-size: 1rem;
+	width: 4rem;
+	margin: 0 auto;
+}
+.page_4 p{
+	font-size: 0.5rem;
+	margin-left: 0.8rem;
+	margin-top: 0.8rem;
+}
+.page_4 img{
+	width: 50%;
+	height: 50%;
+	margin: 0.5rem 1.5rem;
+}

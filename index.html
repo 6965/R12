@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人简历</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/fontsizeset.js"></script>
+	<style type="text/css" media="screen">
+		.page_3{
+		transform-style:preserve-3d;
+	}
+	.warp{
+		width:3rem;
+		height: 3rem;
+		margin: 5rem auto;
+	    transform-style:preserve-3d;
+	}
+	.warp ul{
+		list-style: none;
+		transform-style:preserve-3d;
+		-webkit-animation:rotate 20s linear infinite;
+		
+	}
+	.warp li{
+		position: absolute;
+	}
+	.warp img{
+		width:2rem;
+		height:3rem;
+		border-radius: 2rem;
+	}
+	@-webkit-keyframes rotate{
+			0%{
+				-webkit-transform:rotateX(0deg) rotateY(0deg);
+			}
+			/*50%{
+				-webkit-transform:rotateX(-10deg) rotateY(180deg);
+			}*/
+			100%{
+				-webkit-transform:rotateX(0deg) rotateY(360deg);
+			}
+		}
+	.nav li:nth-child(1){
+		-webkit-transform:rotateY(50deg) translateZ(5rem);
+	}
+	.nav li:nth-child(2){
+		-webkit-transform:rotateY(80deg) translateZ(5rem);
+	}
+	.nav li:nth-child(3){
+		-webkit-transform: rotateY(130deg) translateZ(5rem);
+	}
+	.nav li:nth-child(4){
+		-webkit-transform:rotateY(170deg) translateZ(5rem);
+	}
+	.nav li:nth-child(5){
+		-webkit-transform:rotateY(210deg) translateZ(5rem);
+	}
+	.nav li:nth-child(6){
+		-webkit-transform:rotateY(250deg) translateZ(5rem);
+
+	}
+	.nav li:nth-child(7){
+		-webkit-transform:rotateY(290deg) translateZ(5rem);
+		
+	}
+	.nav li:nth-child(8){
+		-webkit-transform:rotateY(330deg) translateZ(5rem);
+		
+	}
+	.nav li:nth-child(9){
+		-webkit-transform:rotateY(370deg) translateZ(5rem);
+		
+	}
+	</style>
+</head>
+<body>
+<div id="wrap">
+<!-- 公共部分 -->
+	<!-- 音乐按钮图标 -->
+	<div class="music">
+		<span class="music_btn animated bounceIn infinite"></span>
+		<audio id="music_bg" src="source/WeBelieve.mp3" autoplay></audio>
+	</div>
+	<!-- 提示箭头图标 -->
+	<div class="arrow animated bounceInUp infinite">
+		<img src="images/arrow.png" alt="箭头">
+	</div>
+<!-- 主体页面部分 -->
+	<div class="main"> 
+		<!-- 第1页 -->
+		<div class="page page_0">
+			<h1 class="dh animated rotateInUpLeft delay-time5">个人简历</h1>
+			<span class="s-0 dh animated slideInRight delay-time1">♬</span>
+			<span class="s-1 dh animated slideInRight delay-time2">♬</span>
+			<span class="s-2 dh animated slideInRight delay-time3">♬</span>
+			<span class="s-0 dh animated slideInRight delay-time4">♬</span>
+			<span class="s-1 dh animated slideInRight delay-time">♬</span>
+		</div>
+	 	<!-- page 第2页 -->
+		<div class="page page_1 pageDown delay-time">
+		    <h2 class="dh hide animated lightSpeedIn delay-time">个人信息</h2>
+			<img class="animated bounceIn delay-time1"  src="images/hh.jpg" alt="头像">
+			
+			<p class="dh animated fadeInDown delay-time1">姓名：刘志东</p>
+			<p class="dh animated fadeInLeft delay-time2">性别：男</p>
+			<p class="dh animated fadeInDown delay-time3">家乡：河北省唐山市</p>
+			<p class="dh animated fadeInLeft delay-time4">爱好：听音乐、运动、读书</p>
+
+		</div>
+		<!-- page 第3页 -->
+		<div class="page page_2 pageDown">
+
+				<h1 class="dh hide animated rotateIn delay-time">自我评价</h1>
+				<div class="dh hide animated swing delay-time1 div-1">☆</div>
+				<div class="dh hide animated swing delay-time5 div-2">☆</div>
+				<div class="dh hide animated swing delay-time2 div-3">☆</div>
+				<div class="dh hide animated fadeInLeft delay-time div-4">☆</div>
+				<div class="dh hide animated swing delay-time div-5">☆</div>
+				<div class="dh hide animated bounceInUp delay-time div-6">☾</div>
+				<p class="dh hide animated bounceIn delay-time1">
+					本人有扎实的WEB前端专业知识基础，对专业知<br>
+					识有较深入的了解；有较强的学习能力、上进心<br>
+					强，处事态度细心谨慎、认真负责；富有团队合<br>
+					作精神，善于与他人沟通交流，尤其是技术方面<br>
+					的知识，虚心请教他人，共同学习，共同进步；<br>
+					有良好的生活习惯，与他人相处融洽，善于与人交际。
+				</p>
+
+		</div>
+		<!-- page 第4页 -->
+		<div class="page page_3 pageDown">
+
+				<div class="dh hide animated flipInX delay-time span">
+					<span class="span-1">作品</span>
+					<span class="span-2">展示</span>
+
+				</div>
+					<div class="left dh hide animated flipInY delay-time5">
+		                <p><a href="作品展示/蓝鲸游戏/index.html" target="blank">蓝鲸游戏</a></p>
+						<p><a href="作品展示/手机电商/index.html" target="blank">手机电商</a></p>
+						<p><a href="作品展示/医院平台/index.html" target="blank">医院平台</a></p>
+						<p><a href="作品展示/应用中心/应用中心.html" target="blank">应用中心</a></p>
+						<p><a href="作品展示/工程主页/index-1.1.html" target="blank">工程主页</a></p>
+					</div>
+					<div class="right dh hide animated flipInY delay-time5">
+						<p><a href="作品展示/响应式作业/index.html" target="blank">响应式作业</a></p>
+						<p><a href="作品展示/记事本/index.html" target="blank">记事本</a></p>
+						<p><a href="作品展示/博客主页/index.html" target="blank">博客主页</a></p>
+						<p><a href="作品展示/美食1/index.html" target="blank">美食主页</a></p>
+						<p><a href="作品展示/水果/index.html" target="blank">水果主页</a></p>
+					</div>
+					<div class="warp">
+			            	<ul class="nav">
+								<li><img src="images/2017-07-06_091444.png"></li>
+								<li><img src="images/2017-07-06_091644.png"></li>
+								<li><img src="images/2017-07-06_101540.png"></li>
+								<li><img src="images/2017-07-06_101636.png"></li>
+								<li><img src="images/2017-07-06_101659.png"></li>
+								<li><img src="images/2017-07-06_101719.png"></li>
+								<li><img src="images/2017-07-06_101719.png"></li>
+								<li><img src="images/2017-07-06_101736.png"></li>
+								<li><img src="images/2017-07-06_101753.png"></li>
+							</ul>
+					</div>
+				
+		</div>
+		<!-- page 第5页 -->
+		<div class="page page_4 pageDown">
+
+				<h1 class="dh hide animated fadeInLeft delay-time" >联系方式</h1>
+				<p class="dh hide animated lightSpeedIn delay-time">手机：18733565691</p>
+				<p class="dh hide animated lightSpeedIn delay-time">微信：lzd0910</p>
+				<img src="images/qrcode_1499319616880.jpg" alt="">
+
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
+<script type="text/javascript">
+
+</script>
+</html>
